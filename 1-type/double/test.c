@@ -1,8 +1,8 @@
 #include <stdbool.h>
-
+#include <stdlib.h>
 #include "acutest.h"
 #include "double.h"
-
+#include <math.h>
 
 void test_compare_double() {
     TEST_ASSERT(compare_double(1, 1) == true);
