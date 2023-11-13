@@ -21,8 +21,4 @@ int hole_finder(int matrix[], int length, int width){
         }
     }
     return 100 * (min_ind / width) + (min_ind - (min_ind / width) * width);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7226bcd6d18eb537e35df2a8f69e8e4b7d4e086b
