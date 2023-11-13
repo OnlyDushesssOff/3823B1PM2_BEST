@@ -1,3 +1,5 @@
+#include <math.h>
+
 long long calc_row(int n, long long k){
     
     int i = 1;
