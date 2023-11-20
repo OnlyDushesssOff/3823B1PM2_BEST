@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 unsigned long long pack_ull(unsigned char arr[], int size){
-    unsigned long long* mem = arr;
+    unsigned long long* mem = (unsigned long long*)arr;
     if (size > 8) {
         return 0;
     }
@@ -10,6 +10,6 @@ unsigned long long pack_ull(unsigned char arr[], int size){
 }
 
 unsigned char unpack_ull(unsigned long long input){
-    unsigned char* bait = input;
+    unsigned char* bait = &input;
     return bait[4];
 }
