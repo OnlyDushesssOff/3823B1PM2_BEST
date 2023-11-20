@@ -10,6 +10,6 @@ unsigned long long pack_ull(unsigned char arr[], int size){
 }
 
 unsigned char unpack_ull(unsigned long long input){
-    unsigned char* bait = input;
+    unsigned char* bait = &input;
     return bait[4];
 }
