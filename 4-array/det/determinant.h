@@ -64,8 +64,4 @@ int determinant(int matrix[], int size){
             return det_mat_5x5(matrix);
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7226bcd6d18eb537e35df2a8f69e8e4b7d4e086b
