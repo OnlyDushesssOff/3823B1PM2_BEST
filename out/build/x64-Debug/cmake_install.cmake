@@ -40,6 +40,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/4-array/cmake_install.cmake")
   include("C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/5-pointer/cmake_install.cmake")
   include("C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/6-functions/cmake_install.cmake")
+  include("C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/7-recursion/cmake_install.cmake")
+  include("C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/8-strings/cmake_install.cmake")
+  include("C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/cmake_install.cmake")
 
 endif()
 

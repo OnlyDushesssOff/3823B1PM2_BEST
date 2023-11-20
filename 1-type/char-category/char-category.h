@@ -3,8 +3,7 @@
 
 bool is_digit(char x) {
     int y = x;
-    if (x == "") return false;
-    else if ((48 <= y) && (y <= 57))
+    if ((48 <= y) && (y <= 57))
         return true;
     else return false;
 }

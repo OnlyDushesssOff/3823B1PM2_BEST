@@ -1,7 +1,7 @@
 #include <math.h>
 
 unsigned long long pack_ull(unsigned char arr[], int size){
-    return 100;
+   void* ind = arr;
 }
 
 unsigned char unpack_ull(unsigned long long input){

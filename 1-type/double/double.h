@@ -1,4 +1,4 @@
-
+#include <math.h>
 
 bool compare_double(double x, double y) {
     double minus = x - y;
