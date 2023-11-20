@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 int* matrix_multy(int* A, int aM, int aN, int* B, int bM, int bN){
 
@@ -21,6 +22,7 @@ int* matrix_multy(int* A, int aM, int aN, int* B, int bM, int bN){
 
     int sizeA = aM * aN;
     int sizeB = bM * bN;
+    
 
     for (int i = 0; i < aM; i++) {
         for (int j = 0; j < aN; j++) {
@@ -32,6 +34,7 @@ int* matrix_multy(int* A, int aM, int aN, int* B, int bM, int bN){
             matrixB[i][j] = B[j*bN + i];
         }
     }
+
     for (int i = 0; i < aM; i++) {
         for (int j = 0; j < bN; j++) {
             int summ = 0;
