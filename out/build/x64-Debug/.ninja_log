@@ -147,3 +147,5 @@
 203	282	7222127662711133	5-pointer/angle.exe	9af63dd85df281dc
 11	196	7222130491327779	5-pointer/CMakeFiles/angle.dir/scalar_product/test.c.obj	266de998ffc472d3
 196	281	7222130491980931	5-pointer/angle.exe	9af63dd85df281dc
+23	609	7227073984161991	5-pointer/CMakeFiles/find_even.dir/even/test.c.obj	fd3ce996b0c9a7f1
+609	749	7227073985164539	5-pointer/find_even.exe	c1d12b4ee97befe1
