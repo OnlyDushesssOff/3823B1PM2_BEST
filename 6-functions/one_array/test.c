@@ -1,13 +1,13 @@
 #include <stdbool.h>
 #include "generator.h"
 #include "acutest.h"
+#include "stdio.h"
 
 
 bool check_function(int* arr, int size, int K, int M, int F);
 
 void test_array_generator() {
     int size = -1;
-
     int* a1 = array_generator(&size, 100, 10, 50);
     TEST_ASSERT(check_function(a1, size, 100, 10, 50));
     free(a1);
