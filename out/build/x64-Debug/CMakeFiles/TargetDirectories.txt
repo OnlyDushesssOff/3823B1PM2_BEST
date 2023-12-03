@@ -76,5 +76,17 @@ C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-
 C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/8-strings/CMakeFiles/edit_cache.dir
 C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/8-strings/CMakeFiles/rebuild_cache.dir
 C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/smyle_file.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/christmas_tree.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/fileinfo.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/JSON_Parser.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/XML_Parser.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/what_word.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/is_not_python.dir
 C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/edit_cache.dir
 C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files/CMakeFiles/rebuild_cache.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/10-structs/CMakeFiles/struct_like_parametr.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/10-structs/CMakeFiles/med_queue.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/10-structs/CMakeFiles/return_struct.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/10-structs/CMakeFiles/paper_please.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/10-structs/CMakeFiles/edit_cache.dir
+C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/10-structs/CMakeFiles/rebuild_cache.dir

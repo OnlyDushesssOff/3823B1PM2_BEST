@@ -16,7 +16,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -27,7 +28,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						56
+						65
 					]
 				},
 				{
@@ -42,15 +43,15 @@
 					"source" : "1-type",
 					"targetIndexes" : 
 					[
-						4,
-						11,
-						14,
-						16,
+						6,
+						13,
 						17,
+						19,
 						20,
-						39,
-						47,
-						52
+						23,
+						45,
+						54,
+						60
 					]
 				},
 				{
@@ -65,14 +66,14 @@
 					"source" : "2-if_else_switch",
 					"targetIndexes" : 
 					[
-						1,
-						10,
+						2,
 						12,
-						13,
-						29,
-						32,
-						40,
-						58
+						14,
+						15,
+						33,
+						37,
+						46,
+						67
 					]
 				},
 				{
@@ -87,16 +88,16 @@
 					"source" : "3-loop",
 					"targetIndexes" : 
 					[
-						5,
-						15,
-						22,
-						23,
-						24,
+						7,
+						18,
 						25,
-						30,
-						33,
-						43,
-						51
+						27,
+						28,
+						29,
+						34,
+						38,
+						49,
+						59
 					]
 				},
 				{
@@ -111,14 +112,14 @@
 					"source" : "4-array",
 					"targetIndexes" : 
 					[
-						7,
-						19,
-						27,
-						28,
-						34,
-						38,
-						41,
-						50
+						9,
+						22,
+						31,
+						32,
+						39,
+						43,
+						47,
+						58
 					]
 				},
 				{
@@ -133,12 +134,12 @@
 					"source" : "5-pointer",
 					"targetIndexes" : 
 					[
-						2,
-						9,
-						26,
-						36,
-						45,
-						59
+						4,
+						11,
+						30,
+						41,
+						51,
+						69
 					]
 				},
 				{
@@ -153,12 +154,12 @@
 					"source" : "6-functions",
 					"targetIndexes" : 
 					[
-						3,
-						31,
-						35,
-						37,
-						44,
-						55
+						5,
+						36,
+						40,
+						42,
+						50,
+						64
 					]
 				},
 				{
@@ -173,11 +174,11 @@
 					"source" : "7-recursion",
 					"targetIndexes" : 
 					[
-						0,
-						8,
-						42,
+						1,
+						10,
 						48,
-						49
+						55,
+						57
 					]
 				},
 				{
@@ -192,12 +193,12 @@
 					"source" : "8-strings",
 					"targetIndexes" : 
 					[
-						6,
-						18,
+						8,
 						21,
-						46,
-						54,
-						57
+						24,
+						52,
+						62,
+						66
 					]
 				},
 				{
@@ -212,7 +213,31 @@
 					"source" : "9-files",
 					"targetIndexes" : 
 					[
-						53
+						0,
+						3,
+						16,
+						26,
+						35,
+						61,
+						68
+					]
+				},
+				{
+					"build" : "10-structs",
+					"jsonFile" : "directory-10-structs-Debug-94291b8d460b589b6048.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "10-structs",
+					"targetIndexes" : 
+					[
+						44,
+						53,
+						56,
+						63
 					]
 				}
 			],
@@ -231,7 +256,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "BEST_3823B1FI3",
 					"targetIndexes" : 
@@ -295,12 +321,29 @@
 						56,
 						57,
 						58,
-						59
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 9,
+					"id" : "JSON_Parser::@e26505b7773aefa54543",
+					"jsonFile" : "target-JSON_Parser-Debug-ea6b98c1b5e619396d34.json",
+					"name" : "JSON_Parser",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 7,
 					"id" : "NOD::@c096406c745de05906f6",
@@ -313,6 +356,13 @@
 					"id" : "QuadraticEquation::@95a2da4f1daea9af2f23",
 					"jsonFile" : "target-QuadraticEquation-Debug-9bfbd2cc4585d1fad0d9.json",
 					"name" : "QuadraticEquation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "XML_Parser::@e26505b7773aefa54543",
+					"jsonFile" : "target-XML_Parser-Debug-85a11bb3f931337baa5f.json",
+					"name" : "XML_Parser",
 					"projectIndex" : 0
 				},
 				{
@@ -400,6 +450,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 9,
+					"id" : "christmas_tree::@e26505b7773aefa54543",
+					"jsonFile" : "target-christmas_tree-Debug-40a2d7bea9b52b5fdcce.json",
+					"name" : "christmas_tree",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "clock::@44d03605dfb50a3851e7",
 					"jsonFile" : "target-clock-Debug-58082f716aad6915f9e8.json",
@@ -463,6 +520,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 9,
+					"id" : "fileinfo::@e26505b7773aefa54543",
+					"jsonFile" : "target-fileinfo-Debug-60e40ebcccbf6a701a95.json",
+					"name" : "fileinfo",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "find_bin_pattern::@458c05dba31b3d6ab5f1",
 					"jsonFile" : "target-find_bin_pattern-Debug-3088b8067b547f36dba4.json",
@@ -516,6 +580,13 @@
 					"id" : "integral::@458c05dba31b3d6ab5f1",
 					"jsonFile" : "target-integral-Debug-8bf23f8855cbdf80cc22.json",
 					"name" : "integral",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "is_not_python::@e26505b7773aefa54543",
+					"jsonFile" : "target-is_not_python-Debug-b418a323bcd141f99de6.json",
+					"name" : "is_not_python",
 					"projectIndex" : 0
 				},
 				{
@@ -575,6 +646,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "med_queue::@2660f14f8227a6313702",
+					"jsonFile" : "target-med_queue-Debug-df3c67acd8fb8e9ecfb5.json",
+					"name" : "med_queue",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "module::@44d03605dfb50a3851e7",
 					"jsonFile" : "target-module-Debug-8276f4b08cbf7fb18af8.json",
@@ -631,6 +709,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "paper_please::@2660f14f8227a6313702",
+					"jsonFile" : "target-paper_please-Debug-4bb62619990c9a7d209d.json",
+					"name" : "paper_please",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "point::@44d03605dfb50a3851e7",
 					"jsonFile" : "target-point-Debug-eaf4c57dffdc108c3e64.json",
@@ -642,6 +727,13 @@
 					"id" : "recursion_array_sum::@c096406c745de05906f6",
 					"jsonFile" : "target-recursion_array_sum-Debug-594f21e16ea64a85c5fb.json",
 					"name" : "recursion_array_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "return_struct::@2660f14f8227a6313702",
+					"jsonFile" : "target-return_struct-Debug-f52fe6d726f24b9cd4bc.json",
+					"name" : "return_struct",
 					"projectIndex" : 0
 				},
 				{
@@ -687,6 +779,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 10,
+					"id" : "struct_like_parametr::@2660f14f8227a6313702",
+					"jsonFile" : "target-struct_like_parametr-Debug-a663b11856b6b701eb63.json",
+					"name" : "struct_like_parametr",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 6,
 					"id" : "subarray::@14db8abc0f5e71395b7e",
 					"jsonFile" : "target-subarray-Debug-175f18fb413e1a78edda.json",
@@ -696,7 +795,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "sum::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sum-Debug-258cd23d1b464557538c.json",
+					"jsonFile" : "target-sum-Debug-55ffefd3c2ef05485a53.json",
 					"name" : "sum",
 					"projectIndex" : 0
 				},
@@ -712,6 +811,13 @@
 					"id" : "twoboxes::@95a2da4f1daea9af2f23",
 					"jsonFile" : "target-twoboxes-Debug-3aa1533eae7046ec6cff.json",
 					"name" : "twoboxes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "what_word::@e26505b7773aefa54543",
+					"jsonFile" : "target-what_word-Debug-e247fdece8a0bf28b382.json",
+					"name" : "what_word",
 					"projectIndex" : 0
 				},
 				{

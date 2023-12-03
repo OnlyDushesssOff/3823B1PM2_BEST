@@ -2512,6 +2512,228 @@ build 9-files\smyle_file.exe: C_EXECUTABLE_LINKER__smyle_file_Debug 9-files\CMak
   TARGET_IMPLIB = 9-files\smyle_file.lib
   TARGET_PDB = 9-files\smyle_file.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target christmas_tree
+
+
+#############################################
+# Order-only phony target for christmas_tree
+
+build cmake_object_order_depends_target_christmas_tree: phony || 9-files\CMakeFiles\christmas_tree.dir
+
+build 9-files\CMakeFiles\christmas_tree.dir\christmas_tree\test.c.obj: C_COMPILER__christmas_tree_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\christmas_tree\test.c || cmake_object_order_depends_target_christmas_tree
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 9-files\CMakeFiles\christmas_tree.dir
+  OBJECT_FILE_DIR = 9-files\CMakeFiles\christmas_tree.dir\christmas_tree
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\christmas_tree.dir\
+  TARGET_PDB = 9-files\christmas_tree.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target christmas_tree
+
+
+#############################################
+# Link the executable 9-files\christmas_tree.exe
+
+build 9-files\christmas_tree.exe: C_EXECUTABLE_LINKER__christmas_tree_Debug 9-files\CMakeFiles\christmas_tree.dir\christmas_tree\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 9-files\CMakeFiles\christmas_tree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\christmas_tree.dir\
+  TARGET_FILE = 9-files\christmas_tree.exe
+  TARGET_IMPLIB = 9-files\christmas_tree.lib
+  TARGET_PDB = 9-files\christmas_tree.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fileinfo
+
+
+#############################################
+# Order-only phony target for fileinfo
+
+build cmake_object_order_depends_target_fileinfo: phony || 9-files\CMakeFiles\fileinfo.dir
+
+build 9-files\CMakeFiles\fileinfo.dir\fileinfo\test.c.obj: C_COMPILER__fileinfo_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\fileinfo\test.c || cmake_object_order_depends_target_fileinfo
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 9-files\CMakeFiles\fileinfo.dir
+  OBJECT_FILE_DIR = 9-files\CMakeFiles\fileinfo.dir\fileinfo
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\fileinfo.dir\
+  TARGET_PDB = 9-files\fileinfo.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fileinfo
+
+
+#############################################
+# Link the executable 9-files\fileinfo.exe
+
+build 9-files\fileinfo.exe: C_EXECUTABLE_LINKER__fileinfo_Debug 9-files\CMakeFiles\fileinfo.dir\fileinfo\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 9-files\CMakeFiles\fileinfo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\fileinfo.dir\
+  TARGET_FILE = 9-files\fileinfo.exe
+  TARGET_IMPLIB = 9-files\fileinfo.lib
+  TARGET_PDB = 9-files\fileinfo.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target JSON_Parser
+
+
+#############################################
+# Order-only phony target for JSON_Parser
+
+build cmake_object_order_depends_target_JSON_Parser: phony || 9-files\CMakeFiles\JSON_Parser.dir
+
+build 9-files\CMakeFiles\JSON_Parser.dir\JSON_Parser\test.c.obj: C_COMPILER__JSON_Parser_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\JSON_Parser\test.c || cmake_object_order_depends_target_JSON_Parser
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 9-files\CMakeFiles\JSON_Parser.dir
+  OBJECT_FILE_DIR = 9-files\CMakeFiles\JSON_Parser.dir\JSON_Parser
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\JSON_Parser.dir\
+  TARGET_PDB = 9-files\JSON_Parser.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target JSON_Parser
+
+
+#############################################
+# Link the executable 9-files\JSON_Parser.exe
+
+build 9-files\JSON_Parser.exe: C_EXECUTABLE_LINKER__JSON_Parser_Debug 9-files\CMakeFiles\JSON_Parser.dir\JSON_Parser\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 9-files\CMakeFiles\JSON_Parser.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\JSON_Parser.dir\
+  TARGET_FILE = 9-files\JSON_Parser.exe
+  TARGET_IMPLIB = 9-files\JSON_Parser.lib
+  TARGET_PDB = 9-files\JSON_Parser.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target XML_Parser
+
+
+#############################################
+# Order-only phony target for XML_Parser
+
+build cmake_object_order_depends_target_XML_Parser: phony || 9-files\CMakeFiles\XML_Parser.dir
+
+build 9-files\CMakeFiles\XML_Parser.dir\XML_Parser\test.c.obj: C_COMPILER__XML_Parser_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\XML_Parser\test.c || cmake_object_order_depends_target_XML_Parser
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 9-files\CMakeFiles\XML_Parser.dir
+  OBJECT_FILE_DIR = 9-files\CMakeFiles\XML_Parser.dir\XML_Parser
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\XML_Parser.dir\
+  TARGET_PDB = 9-files\XML_Parser.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target XML_Parser
+
+
+#############################################
+# Link the executable 9-files\XML_Parser.exe
+
+build 9-files\XML_Parser.exe: C_EXECUTABLE_LINKER__XML_Parser_Debug 9-files\CMakeFiles\XML_Parser.dir\XML_Parser\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 9-files\CMakeFiles\XML_Parser.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\XML_Parser.dir\
+  TARGET_FILE = 9-files\XML_Parser.exe
+  TARGET_IMPLIB = 9-files\XML_Parser.lib
+  TARGET_PDB = 9-files\XML_Parser.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target what_word
+
+
+#############################################
+# Order-only phony target for what_word
+
+build cmake_object_order_depends_target_what_word: phony || 9-files\CMakeFiles\what_word.dir
+
+build 9-files\CMakeFiles\what_word.dir\what_word\test.c.obj: C_COMPILER__what_word_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\what_word\test.c || cmake_object_order_depends_target_what_word
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 9-files\CMakeFiles\what_word.dir
+  OBJECT_FILE_DIR = 9-files\CMakeFiles\what_word.dir\what_word
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\what_word.dir\
+  TARGET_PDB = 9-files\what_word.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target what_word
+
+
+#############################################
+# Link the executable 9-files\what_word.exe
+
+build 9-files\what_word.exe: C_EXECUTABLE_LINKER__what_word_Debug 9-files\CMakeFiles\what_word.dir\what_word\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 9-files\CMakeFiles\what_word.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\what_word.dir\
+  TARGET_FILE = 9-files\what_word.exe
+  TARGET_IMPLIB = 9-files\what_word.lib
+  TARGET_PDB = 9-files\what_word.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target is_not_python
+
+
+#############################################
+# Order-only phony target for is_not_python
+
+build cmake_object_order_depends_target_is_not_python: phony || 9-files\CMakeFiles\is_not_python.dir
+
+build 9-files\CMakeFiles\is_not_python.dir\is_not_python\test.c.obj: C_COMPILER__is_not_python_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\is_not_python\test.c || cmake_object_order_depends_target_is_not_python
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 9-files\CMakeFiles\is_not_python.dir
+  OBJECT_FILE_DIR = 9-files\CMakeFiles\is_not_python.dir\is_not_python
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\is_not_python.dir\
+  TARGET_PDB = 9-files\is_not_python.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target is_not_python
+
+
+#############################################
+# Link the executable 9-files\is_not_python.exe
+
+build 9-files\is_not_python.exe: C_EXECUTABLE_LINKER__is_not_python_Debug 9-files\CMakeFiles\is_not_python.dir\is_not_python\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 9-files\CMakeFiles\is_not_python.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 9-files\CMakeFiles\is_not_python.dir\
+  TARGET_FILE = 9-files\is_not_python.exe
+  TARGET_IMPLIB = 9-files\is_not_python.lib
+  TARGET_PDB = 9-files\is_not_python.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -2536,7 +2758,187 @@ build 9-files\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 build 9-files\rebuild_cache: phony 9-files\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target struct_like_parametr
+
+
+#############################################
+# Order-only phony target for struct_like_parametr
+
+build cmake_object_order_depends_target_struct_like_parametr: phony || 10-structs\CMakeFiles\struct_like_parametr.dir
+
+build 10-structs\CMakeFiles\struct_like_parametr.dir\struct_like_parametr\test.c.obj: C_COMPILER__struct_like_parametr_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\10-structs\struct_like_parametr\test.c || cmake_object_order_depends_target_struct_like_parametr
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 10-structs\CMakeFiles\struct_like_parametr.dir
+  OBJECT_FILE_DIR = 10-structs\CMakeFiles\struct_like_parametr.dir\struct_like_parametr
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\struct_like_parametr.dir\
+  TARGET_PDB = 10-structs\struct_like_parametr.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct_like_parametr
+
+
+#############################################
+# Link the executable 10-structs\struct_like_parametr.exe
+
+build 10-structs\struct_like_parametr.exe: C_EXECUTABLE_LINKER__struct_like_parametr_Debug 10-structs\CMakeFiles\struct_like_parametr.dir\struct_like_parametr\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 10-structs\CMakeFiles\struct_like_parametr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\struct_like_parametr.dir\
+  TARGET_FILE = 10-structs\struct_like_parametr.exe
+  TARGET_IMPLIB = 10-structs\struct_like_parametr.lib
+  TARGET_PDB = 10-structs\struct_like_parametr.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target med_queue
+
+
+#############################################
+# Order-only phony target for med_queue
+
+build cmake_object_order_depends_target_med_queue: phony || 10-structs\CMakeFiles\med_queue.dir
+
+build 10-structs\CMakeFiles\med_queue.dir\med_queue\test.c.obj: C_COMPILER__med_queue_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\10-structs\med_queue\test.c || cmake_object_order_depends_target_med_queue
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 10-structs\CMakeFiles\med_queue.dir
+  OBJECT_FILE_DIR = 10-structs\CMakeFiles\med_queue.dir\med_queue
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\med_queue.dir\
+  TARGET_PDB = 10-structs\med_queue.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target med_queue
+
+
+#############################################
+# Link the executable 10-structs\med_queue.exe
+
+build 10-structs\med_queue.exe: C_EXECUTABLE_LINKER__med_queue_Debug 10-structs\CMakeFiles\med_queue.dir\med_queue\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 10-structs\CMakeFiles\med_queue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\med_queue.dir\
+  TARGET_FILE = 10-structs\med_queue.exe
+  TARGET_IMPLIB = 10-structs\med_queue.lib
+  TARGET_PDB = 10-structs\med_queue.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target return_struct
+
+
+#############################################
+# Order-only phony target for return_struct
+
+build cmake_object_order_depends_target_return_struct: phony || 10-structs\CMakeFiles\return_struct.dir
+
+build 10-structs\CMakeFiles\return_struct.dir\return_struct\test.c.obj: C_COMPILER__return_struct_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\10-structs\return_struct\test.c || cmake_object_order_depends_target_return_struct
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 10-structs\CMakeFiles\return_struct.dir
+  OBJECT_FILE_DIR = 10-structs\CMakeFiles\return_struct.dir\return_struct
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\return_struct.dir\
+  TARGET_PDB = 10-structs\return_struct.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target return_struct
+
+
+#############################################
+# Link the executable 10-structs\return_struct.exe
+
+build 10-structs\return_struct.exe: C_EXECUTABLE_LINKER__return_struct_Debug 10-structs\CMakeFiles\return_struct.dir\return_struct\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 10-structs\CMakeFiles\return_struct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\return_struct.dir\
+  TARGET_FILE = 10-structs\return_struct.exe
+  TARGET_IMPLIB = 10-structs\return_struct.lib
+  TARGET_PDB = 10-structs\return_struct.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target paper_please
+
+
+#############################################
+# Order-only phony target for paper_please
+
+build cmake_object_order_depends_target_paper_please: phony || 10-structs\CMakeFiles\paper_please.dir
+
+build 10-structs\CMakeFiles\paper_please.dir\paper_please\test.c.obj: C_COMPILER__paper_please_unscanned_Debug C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\10-structs\paper_please\test.c || cmake_object_order_depends_target_paper_please
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\utils"
+  OBJECT_DIR = 10-structs\CMakeFiles\paper_please.dir
+  OBJECT_FILE_DIR = 10-structs\CMakeFiles\paper_please.dir\paper_please
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\paper_please.dir\
+  TARGET_PDB = 10-structs\paper_please.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target paper_please
+
+
+#############################################
+# Link the executable 10-structs\paper_please.exe
+
+build 10-structs\paper_please.exe: C_EXECUTABLE_LINKER__paper_please_Debug 10-structs\CMakeFiles\paper_please.dir\paper_please\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -lm
+  OBJECT_DIR = 10-structs\CMakeFiles\paper_please.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 10-structs\CMakeFiles\paper_please.dir\
+  TARGET_FILE = 10-structs\paper_please.exe
+  TARGET_IMPLIB = 10-structs\paper_please.lib
+  TARGET_PDB = 10-structs\paper_please.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build 10-structs\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\out\build\x64-Debug\10-structs" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 10-structs\edit_cache: phony 10-structs\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 10-structs\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\out\build\x64-Debug\10-structs" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST" -B"C:\Users\andre\Programs\Visual Studio code\Homwork\3823B1PM2_BEST\out\build\x64-Debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 10-structs\rebuild_cache: phony 10-structs\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build JSON_Parser: phony 9-files\JSON_Parser.exe
+
+build JSON_Parser.exe: phony 9-files\JSON_Parser.exe
 
 build NOD: phony 7-recursion\NOD.exe
 
@@ -2545,6 +2947,10 @@ build NOD.exe: phony 7-recursion\NOD.exe
 build QuadraticEquation: phony 2-if_else_switch\QuadraticEquation.exe
 
 build QuadraticEquation.exe: phony 2-if_else_switch\QuadraticEquation.exe
+
+build XML_Parser: phony 9-files\XML_Parser.exe
+
+build XML_Parser.exe: phony 9-files\XML_Parser.exe
 
 build angle: phony 5-pointer\angle.exe
 
@@ -2594,6 +3000,10 @@ build chocolate: phony 2-if_else_switch\chocolate.exe
 
 build chocolate.exe: phony 2-if_else_switch\chocolate.exe
 
+build christmas_tree: phony 9-files\christmas_tree.exe
+
+build christmas_tree.exe: phony 9-files\christmas_tree.exe
+
 build clock: phony 1-type\clock.exe
 
 build clock.exe: phony 1-type\clock.exe
@@ -2630,6 +3040,10 @@ build fibonacci: phony 3-loop\fibonacci.exe
 
 build fibonacci.exe: phony 3-loop\fibonacci.exe
 
+build fileinfo: phony 9-files\fileinfo.exe
+
+build fileinfo.exe: phony 9-files\fileinfo.exe
+
 build find_bin_pattern: phony 3-loop\find_bin_pattern.exe
 
 build find_bin_pattern.exe: phony 3-loop\find_bin_pattern.exe
@@ -2661,6 +3075,10 @@ build icecream.exe: phony 2-if_else_switch\icecream.exe
 build integral: phony 3-loop\integral.exe
 
 build integral.exe: phony 3-loop\integral.exe
+
+build is_not_python: phony 9-files\is_not_python.exe
+
+build is_not_python.exe: phony 9-files\is_not_python.exe
 
 build kramer: phony 6-functions\kramer.exe
 
@@ -2694,6 +3112,10 @@ build maxmin: phony 4-array\maxmin.exe
 
 build maxmin.exe: phony 4-array\maxmin.exe
 
+build med_queue: phony 10-structs\med_queue.exe
+
+build med_queue.exe: phony 10-structs\med_queue.exe
+
 build module: phony 1-type\module.exe
 
 build module.exe: phony 1-type\module.exe
@@ -2726,6 +3148,10 @@ build palindrome: phony 8-strings\palindrome.exe
 
 build palindrome.exe: phony 8-strings\palindrome.exe
 
+build paper_please: phony 10-structs\paper_please.exe
+
+build paper_please.exe: phony 10-structs\paper_please.exe
+
 build point: phony 1-type\point.exe
 
 build point.exe: phony 1-type\point.exe
@@ -2733,6 +3159,10 @@ build point.exe: phony 1-type\point.exe
 build recursion_array_sum: phony 7-recursion\recursion_array_sum.exe
 
 build recursion_array_sum.exe: phony 7-recursion\recursion_array_sum.exe
+
+build return_struct: phony 10-structs\return_struct.exe
+
+build return_struct.exe: phony 10-structs\return_struct.exe
 
 build revers_array: phony 7-recursion\revers_array.exe
 
@@ -2758,6 +3188,10 @@ build str_to_double: phony 8-strings\str_to_double.exe
 
 build str_to_double.exe: phony 8-strings\str_to_double.exe
 
+build struct_like_parametr: phony 10-structs\struct_like_parametr.exe
+
+build struct_like_parametr.exe: phony 10-structs\struct_like_parametr.exe
+
 build subarray: phony 6-functions\subarray.exe
 
 build subarray.exe: phony 6-functions\subarray.exe
@@ -2772,6 +3206,10 @@ build twoboxes: phony 2-if_else_switch\twoboxes.exe
 
 build twoboxes.exe: phony 2-if_else_switch\twoboxes.exe
 
+build what_word: phony 9-files\what_word.exe
+
+build what_word.exe: phony 9-files\what_word.exe
+
 build wild_game: phony 5-pointer\wild_game.exe
 
 build wild_game.exe: phony 5-pointer\wild_game.exe
@@ -2784,7 +3222,7 @@ build wild_game.exe: phony 5-pointer\wild_game.exe
 #############################################
 # Folder: C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug
 
-build all: phony sum.exe 1-type\all 2-if_else_switch\all 3-loop\all 4-array\all 5-pointer\all 6-functions\all 7-recursion\all 8-strings\all 9-files\all
+build all: phony sum.exe 1-type\all 2-if_else_switch\all 3-loop\all 4-array\all 5-pointer\all 6-functions\all 7-recursion\all 8-strings\all 9-files\all 10-structs\all
 
 # =============================================================================
 
@@ -2792,6 +3230,13 @@ build all: phony sum.exe 1-type\all 2-if_else_switch\all 3-loop\all 4-array\all 
 # Folder: C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/1-type
 
 build 1-type\all: phony 1-type\seconds.exe 1-type\clock.exe 1-type\module.exe 1-type\decomposition.exe 1-type\point.exe 1-type\char-category.exe 1-type\double.exe 1-type\byte.exe 1-type\deadline.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/10-structs
+
+build 10-structs\all: phony 10-structs\struct_like_parametr.exe 10-structs\med_queue.exe 10-structs\return_struct.exe 10-structs\paper_please.exe
 
 # =============================================================================
 
@@ -2847,7 +3292,7 @@ build 8-strings\all: phony 8-strings\str_to_double.exe 8-strings\double_to_str.e
 #############################################
 # Folder: C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug/9-files
 
-build 9-files\all: phony 9-files\smyle_file.exe
+build 9-files\all: phony 9-files\smyle_file.exe 9-files\christmas_tree.exe 9-files\fileinfo.exe 9-files\JSON_Parser.exe 9-files\XML_Parser.exe 9-files\what_word.exe 9-files\is_not_python.exe
 
 # =============================================================================
 # Built-in targets
@@ -2856,14 +3301,14 @@ build 9-files\all: phony 9-files\smyle_file.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\1-type\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\2-if_else_switch\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\3-loop\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\4-array\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\5-pointer\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\6-functions\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\7-recursion\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\8-strings\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\CMakeLists.txt CMakeCache.txt CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\1-type\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\10-structs\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\2-if_else_switch\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\3-loop\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\4-array\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\5-pointer\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\6-functions\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\7-recursion\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\8-strings\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\CMakeLists.txt CMakeCache.txt CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\1-type\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\2-if_else_switch\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\3-loop\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\4-array\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\5-pointer\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\6-functions\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\7-recursion\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\8-strings\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\CMakeLists.txt CMakeCache.txt CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake: phony
+build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\1-type\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\10-structs\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\2-if_else_switch\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\3-loop\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\4-array\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\5-pointer\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\6-functions\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\7-recursion\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\8-strings\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\9-files\CMakeLists.txt C$:\Users\andre\Programs\Visual$ Studio$ code\Homwork\3823B1PM2_BEST\CMakeLists.txt CMakeCache.txt CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake: phony
 
 
 #############################################
