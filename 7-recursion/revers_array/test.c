@@ -10,8 +10,8 @@ int compare_arrays(int* target, int* result, int size){
 }
 
 void test_sum_array_elements() {
-    int arr1[] = {};
-    int res1[] = {};
+    int arr1[] = {0};
+    int res1[] = {0};
     int arr2[] = {1};
     int res2[] = {1};
     int arr3[] = {1, 2, 3};
