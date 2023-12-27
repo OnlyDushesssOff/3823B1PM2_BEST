@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "3823B1PM2_BEST_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST/out/build/x64-Debug"
+		},
+		{
+			"name" : "3823B1PM2_BEST_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "3823B1PM2_BEST_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/andre/Programs/Visual Studio code/Homwork/3823B1PM2_BEST"
+		},
+		{
 			"name" : "BEST_3823B1FI3_BINARY_DIR",
 			"properties" : 
 			[
@@ -759,7 +795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "BEST_3823B1FI3"
+			"value" : "3823B1PM2_BEST"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
